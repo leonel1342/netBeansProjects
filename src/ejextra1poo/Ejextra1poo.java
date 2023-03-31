@@ -6,6 +6,8 @@
 
 package ejextra1poo;
 
+import entidades.Cancion;
+
 
 public class Ejextra1poo {
 
@@ -14,8 +16,10 @@ public class Ejextra1poo {
      */
     public static void main(String[] args) {
        
+        Cancion c= new Cancion();
         
-        
+        c.setAutor("cacho");
+        System.out.println("el autor es "+ c.getAutor());
     }
 
 }
